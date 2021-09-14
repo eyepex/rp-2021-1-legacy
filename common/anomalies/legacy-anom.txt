@@ -1,0 +1,31 @@
+legacy_relics_anomaly_category = {				# Anomaly category ID key
+
+	should_ai_use = no			# Allows AI empires to generate the category. Default: no
+
+	picture = GFX_evt_alien_ruins			# Picture displayed in category window
+	level = 1 #TODO 10						# Anomaly level, 1 to 10
+
+	null_spawn_chance = 0			# Default 0. 0.0 - 1.0 (0 to 100%) chance category will NOT spawn
+									# even if it is picked by the anomaly die roll. Used to make
+									# categories for unusual objects (e.g. black holes) actually rare.
+
+	max_once = yes				# default NO, if true will spawn category only once per empire
+	max_once_global = no		# default NO, if true will spawn category only once per game
+
+	spawn_chance = {				# Chance for this anomaly category to spawn, 
+		base = 1000				# relative to other valid categories. Default: base = 0
+	}
+	on_success = {					# Picks anomaly event to fire; similar to random_list
+		1 = {						# Base chance
+			max_once = no			# Individual outcomes default to max_once = yes,
+			max_once_global = yes	 # and max_once_global = no
+			ship_event = legacy_anom.1	# New effect anomaly_event fires specified event ID. Scope: ship, from: planet		   
+		}							# Can also use ship_event, though it gets different scopes:
+									# ship, from: ship, fromfrom: planet	  
+		1 = {
+			max_once = no
+			max_once_global = yes
+			ship_event = legacy_anom.2		   
+		}
+	}
+}

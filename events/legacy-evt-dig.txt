@@ -1,11 +1,11 @@
 namespace = legacy_dig
 
-fleet_event = { #Open the Vault
+fleet_event = {
 	id = legacy_dig.1
 	title = "legacy_dig.1.name"
 	desc = legacy_dig.1.desc
-	picture = GFX_evt_interior_battle
-	show_sound = event_metal_fatigue
+	picture = GFX_evt_alien_ruins
+	show_sound = event_door_opening
 	location = from
 
 	archaeology = yes
@@ -14,15 +14,21 @@ fleet_event = { #Open the Vault
 
 	option = {
 		name = legacy_dig.1.a
-		small_artifact_reward = yes
+		owner = {
+			add_relic = r_quoranbecks_cloning_chamber
+		}
+	}
+	
+	after = {
+		medium_artifact_reward = yes
 	}
 }
 
-fleet_event = { #Contents revealed
+fleet_event = {
 	id = legacy_dig.2
 	title = "legacy_dig.2.name"
 	desc = legacy_dig.2.desc
-	picture = GFX_evt_emergency_workers
+	picture = GFX_evt_alien_ruins
 	show_sound = event_door_opening
 	location = from
 
@@ -33,8 +39,7 @@ fleet_event = { #Contents revealed
 	option = {
 		name = legacy_dig.2.a
 		owner = {
-			add_relic = r_quoranbecks_cloning_chamber
-			{
+			add_relic = r_zondragenes
 		}
 	}
 	

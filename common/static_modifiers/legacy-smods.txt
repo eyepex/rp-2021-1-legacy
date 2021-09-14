@@ -1,3 +1,0 @@
-quoranbeck_triumph = {
-	diplo_weight_mult = 0.2
-}

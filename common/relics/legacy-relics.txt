@@ -8,18 +8,6 @@ r_quoranbecks_cloning_chamber = {
 	portrait = "GFX_relic_unbidden_warlock"
 	sound = "relic_activation_the_surveyor"
 
-	resources = {
-		category = relics
-		# Activation cost
-		cost = {
-			influence = @activation_cost
-		}
-	}
-
-	ai_weight = {
-		weight = 100
-	}
-
 	triggered_country_modifier = {
 		potential = {
 			always = yes
@@ -28,26 +16,20 @@ r_quoranbecks_cloning_chamber = {
 	}
 
 	score = 1000
+}
 
-	active_effect = {
-		add_modifier = {
-			modifier = "quoranbeck_triumph"
-			days = @triumph_duration
+r_zondragenes = {
+	activation_duration = @triumph_duration
+	portrait = "GFX_evt_alien_ruins"
+	sound = "relic_activation_the_surveyor"
+
+	triggered_country_modifier = {
+		potential = {
+			always = yes
 		}
-		custom_tooltip = relic_triumph_cooldown
-		hidden_effect = {
-			add_modifier = {
-				modifier = "relic_activation_cooldown"
-				days = @triumph_duration
-			}
-		}
+		category_biology_research_speed_mult = 0.05
+		country_society_tech_research_speed = 0.05
 	}
 
-	# Possible check for activation
-	possible = {
-		custom_tooltip = {
-			fail_text = "requires_relic_no_cooldown"
-			NOT = { has_modifier = relic_activation_cooldown }
-		}
-	}
+	score = 1000
 }

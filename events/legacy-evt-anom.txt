@@ -1,0 +1,37 @@
+namespace = legacy_anom
+
+ship_event = {
+	id = legacy_anom.1
+	title = "legacy_anom.1.name"
+	desc = legacy_anom.1.desc
+	picture = GFX_evt_alien_ruins
+	show_sound = event_door_opening
+	location = from
+
+	is_triggered_only = yes
+
+	option = {
+		name = legacy_anom.1.a
+		fromfrom = {
+			create_archaeological_site = dig_quoranbeck
+		}
+	}
+}
+
+ship_event = {
+	id = legacy_anom.2
+	title = "legacy_anom.2.name"
+	desc = legacy_anom.2.desc
+	picture = GFX_evt_alien_ruins
+	show_sound = event_door_opening
+	location = from
+
+	is_triggered_only = yes
+
+	option = {
+		name = legacy_anom.2.a
+		fromfrom = {
+			create_archaeological_site = dig_zondragenes
+		}
+	}
+}
