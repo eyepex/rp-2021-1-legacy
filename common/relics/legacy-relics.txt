@@ -20,7 +20,7 @@ r_quoranbecks_cloning_chamber = {
 
 r_zondragenes = {
 	activation_duration = @triumph_duration
-	portrait = "GFX_relic_unbidden_warlock"
+	portrait = "GFX_relic_zondragenes"
 	sound = "relic_activation_the_surveyor"
 
 	triggered_country_modifier = {

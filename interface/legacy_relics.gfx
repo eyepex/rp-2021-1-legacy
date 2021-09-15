@@ -1,0 +1,19 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_relic_potato"
+		texturefile = "gfx/interface/icons/potato.dds"
+	}
+	spriteType = {
+		name = "GFX_relic_zondragenes"
+		texturefile = "gfx/interface/icons/zondra.dds"
+	}
+	spriteType = {
+		name = "GFX_relic_kontaktsonde"
+		texturefile = "gfx/interface/icons/eskethia.dds"
+	}
+	spriteType = {
+		name = "GFX_relic_gleucksspieltoken"
+		texturefile = "gfx/interface/icons/sakuya.dds"
+	}
+}
