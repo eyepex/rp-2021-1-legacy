@@ -1,4 +1,3 @@
-# relics from last Rp game for eastereggs
+# relics from last Rp game for eastereggs in the new Rounds to come
 
-- quoran beck cloning chamber
-- zondragenes
+[spoiler]
