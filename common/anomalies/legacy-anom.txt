@@ -16,18 +16,18 @@ legacy_relics_anomaly_category = {				# Anomaly category ID key
 		base = 1000				# relative to other valid categories. Default: base = 0
 	}
 	on_success = {					# Picks anomaly event to fire; similar to random_list
-		0 = {						# Base chance
+		1 = {						# Base chance
 			max_once = no			# Individual outcomes default to max_once = yes,
 			max_once_global = yes	 # and max_once_global = no
 			ship_event = legacy_anom.1	# New effect anomaly_event fires specified event ID. Scope: ship, from: planet		   
 		}							# Can also use ship_event, though it gets different scopes:
 									# ship, from: ship, fromfrom: planet	  
-		0 = {
+		1 = {
 			max_once = no
 			max_once_global = yes
 			ship_event = legacy_anom.2		   
 		}
-		0 = {
+		1 = {
 			max_once = no
 			max_once_global = yes
 			ship_event = legacy_anom.3		   

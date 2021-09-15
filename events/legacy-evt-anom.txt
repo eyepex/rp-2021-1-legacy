@@ -4,7 +4,7 @@ ship_event = {
 	id = legacy_anom.1
 	title = legacy_anom.1.name
 	desc = legacy_anom.1.desc
-	picture = GFX_evt_alien_ruins
+	picture = GFX_evt_habitable_dig_site
 	show_sound = event_door_opening
 	location = from
 
@@ -22,7 +22,7 @@ ship_event = {
 	id = legacy_anom.2
 	title = legacy_anom.2.name
 	desc = legacy_anom.2.desc
-	picture = GFX_evt_alien_ruins
+	picture = GFX_evt_habitable_dig_site
 	show_sound = event_door_opening
 	location = from
 
@@ -40,7 +40,7 @@ ship_event = {
 	id = legacy_anom.3
 	title = legacy_anom.3.name
 	desc = legacy_anom.3.desc
-	picture = GFX_evt_alien_ruins
+	picture = GFX_evt_habitable_dig_site
 	show_sound = event_door_opening
 	location = from
 
@@ -58,7 +58,7 @@ ship_event = {
 	id = legacy_anom.4
 	title = legacy_anom.4.name
 	desc = legacy_anom.4.desc
-	picture = GFX_evt_alien_ruins
+	picture = GFX_evt_habitable_dig_site
 	show_sound = event_door_opening
 	location = from
 
