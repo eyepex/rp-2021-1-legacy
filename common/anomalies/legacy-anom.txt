@@ -27,10 +27,15 @@ legacy_relics_anomaly_category = {				# Anomaly category ID key
 			max_once_global = yes
 			ship_event = legacy_anom.2		   
 		}
-		1 = {
+		0 = {
 			max_once = no
 			max_once_global = yes
 			ship_event = legacy_anom.3		   
+		}
+		1 = {
+			max_once = no
+			max_once_global = yes
+			ship_event = legacy_anom.4		   
 		}
 	}
 }
