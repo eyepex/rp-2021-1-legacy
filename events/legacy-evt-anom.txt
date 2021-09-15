@@ -2,7 +2,7 @@ namespace = legacy_anom
 
 ship_event = {
 	id = legacy_anom.1
-	title = "legacy_anom.1.name"
+	title = legacy_anom.1.name
 	desc = legacy_anom.1.desc
 	picture = GFX_evt_alien_ruins
 	show_sound = event_door_opening
@@ -12,15 +12,15 @@ ship_event = {
 
 	option = {
 		name = legacy_anom.1.a
-		fromfrom = {
-			create_archaeological_site = dig_quoranbeck
+		owner = {
+			add_relic = r_quoranbecks_cloning_chamber
 		}
 	}
 }
 
 ship_event = {
 	id = legacy_anom.2
-	title = "legacy_anom.2.name"
+	title = legacy_anom.2.name
 	desc = legacy_anom.2.desc
 	picture = GFX_evt_alien_ruins
 	show_sound = event_door_opening
@@ -30,8 +30,8 @@ ship_event = {
 
 	option = {
 		name = legacy_anom.2.a
-		fromfrom = {
-			create_archaeological_site = dig_zondragenes
+		owner = {
+			add_relic = r_zondragenes
 		}
 	}
 }
