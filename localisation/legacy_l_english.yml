@@ -1,6 +1,6 @@
 ﻿l_english:
   legacy_relics_anomaly_category: "Alte Zivilisation entdeckt"
-  legacy_relics_anomaly_category_desc: "Aus den Sensordaten laesst sich erkennen, dass es hier vor Jahrmillionen schon mal eine Siedlung mit Braeuchen und Traditionen gegeben haben muss. Die Forscher vermuten, dass diese im letzten Zyklus bewohnt gewesen sei und werden versuchen, etwas nuetzliches mitzunehmen."
+  legacy_relics_anomaly_category_desc: "Aus den Sensordaten laesst sich erkennen, dass es hier vor Jahrmillionen schon mal eine Siedlung mit speziellen Braeuchen und Technologien gegeben haben muss. Die Forscher vermuten, dass diese im letzten Zyklus bewohnt gewesen sei, und werden versuchen, etwas nuetzliches mitzunehmen."
 
   r_quoranbecks_cloning_chamber: "r_quoranbecks_cloning_chamber"
   r_quoranbecks_cloning_chamber_desc: "r_quoranbecks_cloning_chamber_desc"
@@ -25,3 +25,10 @@
   legacy_anom.4.name: "Glueckspieltoke gefunden"
   legacy_anom.4.desc: "legacy_anom.4.desc"
   legacy_anom.4.a: "Faszinierend!"
+
+
+  r_gleucksspieltoken: "Meme Datenbank"
+  r_gleucksspieltoken_desc: "Datenbank an Bildern die scheinbar als Metaphorische Kontaktaufnahme gedacht waren. Sie scheinen keinen Muster zu folgen und eine Ordnung zu besitzen. Jedoch ist die Vielzahl an möglichen Expressionen Hilfreich bei der Interpretation verschiedener Gesichtern beim Erstkontakt."
+  legacy_anom.5.name: "MemeSammlung gefunden"
+  legacy_anom.5.desc: "legacy_anom.5.desc"
+  legacy_anom.5.a: "Faszinierend!"

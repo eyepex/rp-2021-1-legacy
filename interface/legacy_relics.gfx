@@ -16,4 +16,8 @@ spriteTypes = {
 		name = "GFX_relic_gleucksspieltoken"
 		texturefile = "gfx/interface/icons/sakuya.dds"
 	}
+	spriteType = {
+		name = "GFX_relic_memedatenbank"
+		texturefile = "gfx/interface/icons/omnicprime.dds"
+	}
 }

@@ -71,4 +71,21 @@ ship_event = {
 		}
 	}
 }
+ship_event = {
+	id = legacy_anom.5
+	title = legacy_anom.5.name
+	desc = legacy_anom.5.desc
+	picture = GFX_evt_habitable_dig_site
+	show_sound = event_door_opening
+	location = from
+
+	is_triggered_only = yes
+
+	option = {
+		name = legacy_anom.5.a
+		owner = {
+			add_relic = r_memedatenbank
+		}
+	}
+}
 
