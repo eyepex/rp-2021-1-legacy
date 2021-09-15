@@ -20,7 +20,7 @@ r_quoranbecks_cloning_chamber = {
 
 r_zondragenes = {
 	activation_duration = @triumph_duration
-	portrait = "GFX_evt_alien_ruins"
+	portrait = "GFX_relic_unbidden_warlock"
 	sound = "relic_activation_the_surveyor"
 
 	triggered_country_modifier = {
@@ -29,6 +29,21 @@ r_zondragenes = {
 		}
 		category_biology_research_speed_mult = 0.05
 		country_society_tech_research_speed = 0.05
+	}
+
+	score = 1000
+}
+
+r_kontaktsonde = {
+	activation_duration = @triumph_duration
+	portrait = "GFX_relic_unbidden_warlock"
+	sound = "relic_activation_the_surveyor"
+
+	triggered_country_modifier = {
+		potential = {
+			always = yes
+		}
+		pc_nuked_habitability = 0.05
 	}
 
 	score = 1000

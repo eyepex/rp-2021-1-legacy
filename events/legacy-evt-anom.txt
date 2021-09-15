@@ -35,3 +35,21 @@ ship_event = {
 		}
 	}
 }
+
+ship_event = {
+	id = legacy_anom.3
+	title = legacy_anom.3.name
+	desc = legacy_anom.3.desc
+	picture = GFX_evt_alien_ruins
+	show_sound = event_door_opening
+	location = from
+
+	is_triggered_only = yes
+
+	option = {
+		name = legacy_anom.3.a
+		owner = {
+			add_relic = r_kontaktsonde
+		}
+	}
+}

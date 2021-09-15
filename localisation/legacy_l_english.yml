@@ -1,16 +1,21 @@
 ﻿l_english:
   legacy_relics_anomaly_category: "Alte Zivilisation entdeckt"
-  legacy_relics_anomaly_category_desc: "Aus den Sensordaten laesst sich erkennen, dass es hier vor Jahrmillionen schon mal eine Siedlung mit Braeuchen und Traditionen gegeben haben muss. Die Forscher werden versuchen, etwas nuetzliches mitzunehmen."
+  legacy_relics_anomaly_category_desc: "Aus den Sensordaten laesst sich erkennen, dass es hier vor Jahrmillionen schon mal eine Siedlung mit Braeuchen und Traditionen gegeben haben muss. Die Forscher vermuten, dass diese im letzten Zyklus bewohnt gewesen sei und werden versuchen, etwas nuetzliches mitzunehmen."
 
 
   r_quoranbecks_cloning_chamber: "r_quoranbecks_cloning_chamber"
   r_quoranbecks_cloning_chamber_desc: "r_quoranbecks_cloning_chamber_desc"
-  legacy_anom.1.name: "legacy_anom.1.name"
+  legacy_anom.1.name: "Klonkammer gefunden"
   legacy_anom.1.desc: "legacy_anom.1.desc"
 
   r_zondragenes: "Altes Gendatenarchiv der Zondra Consultive"
   r_zondragenes_desc: "Gendatenbank von unzähligen Ausgestorbenen Spezies dieser Galaxie. Einige äußerst hoch entwickelt aber leider sind viele Einträge unvollständig."
-  legacy_anom.2.name: "legacy_anom.2.name"
+  legacy_anom.2.name: "Gendatenarchiv gefunden"
   legacy_anom.2.desc: "legacy_anom.2.desc"
 
+
+  r_kontaktsonde: "Erstkontaktsonde aus einem Wurmloch"
+  r_kontaktsonde_desc: "Eine scheinbar Hochentwickelte Sonde zur Kontaktaufnahme auf scheinbar jeder Ebene. Jemand scheint vergeblich versucht zu haben sie zu öffnen und sie in ein Wurmloch geschleudert zu haben. Die Technik ist inaktiv und nicht zugänglich. Jedoch ist das Design mit den Kratzern und Macken inspirierend."
+  legacy_anom.3.name: "Erstkontaktsonde gefunden"
+  legacy_anom.3.desc: "legacy_anom.3.desc"
 
