@@ -1,6 +1,25 @@
 namespace = legacy_anom
 
 ship_event = {
+	id = legacy_anom.0
+	title = legacy_anom.0.name
+	desc = legacy_anom.0.desc
+	picture = GFX_evt_habitable_dig_site
+	show_sound = event_door_opening
+	location = from
+
+	is_triggered_only = yes
+
+	option = {
+		name = legacy_anom.0.a
+		owner = {
+			add_relic = r_quoranbecks_cloning_chamber
+		}
+	}
+}
+
+
+ship_event = {
 	id = legacy_anom.1
 	title = legacy_anom.1.name
 	desc = legacy_anom.1.desc
@@ -13,7 +32,7 @@ ship_event = {
 	option = {
 		name = legacy_anom.1.a
 		owner = {
-			add_relic = r_quoranbecks_cloning_chamber
+			add_relic = r_zondra
 		}
 	}
 }
@@ -31,7 +50,7 @@ ship_event = {
 	option = {
 		name = legacy_anom.2.a
 		owner = {
-			add_relic = r_zondragenes
+			add_relic = r_eskethia
 		}
 	}
 }
@@ -49,7 +68,7 @@ ship_event = {
 	option = {
 		name = legacy_anom.3.a
 		owner = {
-			add_relic = r_kontaktsonde
+			add_relic = r_zakuya
 		}
 	}
 }
@@ -67,7 +86,7 @@ ship_event = {
 	option = {
 		name = legacy_anom.4.a
 		owner = {
-			add_relic = r_gleucksspieltoken
+			add_relic = r_omnicprime
 		}
 	}
 }
@@ -84,8 +103,169 @@ ship_event = {
 	option = {
 		name = legacy_anom.5.a
 		owner = {
-			add_relic = r_memedatenbank
+			add_relic = r_noravu
 		}
 	}
 }
 
+ship_event = {
+	id = legacy_anom.6
+	title = legacy_anom.6.name
+	desc = legacy_anom.6.desc
+	picture = GFX_evt_habitable_dig_site
+	show_sound = event_door_opening
+	location = from
+
+	is_triggered_only = yes
+
+	option = {
+		name = legacy_anom.6.a
+		owner = {
+			add_relic = r_famarian
+		}
+	}
+}
+
+ship_event = {
+	id = legacy_anom.7
+	title = legacy_anom.7.name
+	desc = legacy_anom.7.desc
+	picture = GFX_evt_habitable_dig_site
+	show_sound = event_door_opening
+	location = from
+
+	is_triggered_only = yes
+
+	option = {
+		name = legacy_anom.7.a
+		owner = {
+			add_relic = r_fareen
+		}
+	}
+}
+
+ship_event = {
+	id = legacy_anom.8
+	title = legacy_anom.8.name
+	desc = legacy_anom.8.desc
+	picture = GFX_evt_habitable_dig_site
+	show_sound = event_door_opening
+	location = from
+
+	is_triggered_only = yes
+
+	option = {
+		name = legacy_anom.8.a
+		owner = {
+			add_relic = r_evoli
+		}
+	}
+}
+
+ship_event = {
+	id = legacy_anom.9
+	title = legacy_anom.9.name
+	desc = legacy_anom.9.desc
+	picture = GFX_evt_habitable_dig_site
+	show_sound = event_door_opening
+	location = from
+
+	is_triggered_only = yes
+
+	option = {
+		name = legacy_anom.9.a
+		owner = {
+			add_relic = r_pathfinder
+		}
+	}
+}
+
+ship_event = {
+	id = legacy_anom.10
+	title = legacy_anom.10.name
+	desc = legacy_anom.10.desc
+	picture = GFX_evt_habitable_dig_site
+	show_sound = event_door_opening
+	location = from
+
+	is_triggered_only = yes
+
+	option = {
+		name = legacy_anom.10.a
+		owner = {
+			add_relic = r_flores
+		}
+	}
+}
+
+ship_event = {
+	id = legacy_anom.11
+	title = legacy_anom.11.name
+	desc = legacy_anom.11.desc
+	picture = GFX_evt_habitable_dig_site
+	show_sound = event_door_opening
+	location = from
+
+	is_triggered_only = yes
+
+	option = {
+		name = legacy_anom.11.a
+		owner = {
+			add_relic = r_isoptera
+		}
+	}
+}
+
+ship_event = {
+	id = legacy_anom.12
+	title = legacy_anom.12.name
+	desc = legacy_anom.12.desc
+	picture = GFX_evt_habitable_dig_site
+	show_sound = event_door_opening
+	location = from
+
+	is_triggered_only = yes
+
+	option = {
+		name = legacy_anom.12.a
+		owner = {
+			add_relic = r_karanen
+		}
+	}
+}
+
+ship_event = {
+	id = legacy_anom.13
+	title = legacy_anom.13.name
+	desc = legacy_anom.13.desc
+	picture = GFX_evt_habitable_dig_site
+	show_sound = event_door_opening
+	location = from
+
+	is_triggered_only = yes
+
+	option = {
+		name = legacy_anom.13.a
+		owner = {
+			add_relic = r_kooperative
+		}
+	}
+}
+
+ship_event = {
+	id = legacy_anom.14
+	title = legacy_anom.14.name
+	desc = legacy_anom.14.desc
+	picture = GFX_evt_habitable_dig_site
+	show_sound = event_door_opening
+	location = from
+
+	is_triggered_only = yes
+
+	option = {
+		name = legacy_anom.14.a
+		owner = {
+			add_relic = r_aracea
+		}
+	}
+}

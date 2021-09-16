@@ -14,13 +14,15 @@ r_quoranbecks_cloning_chamber = {
 		}
 		envoys_add = 1
 	}
-
+	possible = {always = no}
+	resources = {category = relics	}
+	active_effect = {}
 	score = 1000
 }
 
-r_zondragenes = {
+r_zondra = {
 	activation_duration = @triumph_duration
-	portrait = "GFX_relic_zondragenes"
+	portrait = "GFX_relic_zondra"
 	sound = "relic_activation_the_surveyor"
 
 	triggered_country_modifier = {
@@ -30,13 +32,15 @@ r_zondragenes = {
 		category_biology_research_speed_mult = 0.05
 		country_society_tech_research_speed = 0.05
 	}
-
+	possible = {always = no}
+	resources = {category = relics	}
+	active_effect = {}
 	score = 1000
 }
 
-r_kontaktsonde = {
+r_eskethia = {
 	activation_duration = @triumph_duration
-	portrait = "GFX_relic_kontaktsonde"
+	portrait = "GFX_relic_eskethia"
 	sound = "relic_activation_the_surveyor"
 
 	triggered_country_modifier = {
@@ -45,13 +49,15 @@ r_kontaktsonde = {
 		}
 		pc_nuked_habitability = 0.05
 	}
-
+	possible = {always = no}
+	resources = {category = relics	}
+	active_effect = {}
 	score = 1000
 }
 
-r_gleucksspieltoken = {
+r_zakuya = {
 	activation_duration = @triumph_duration
-	portrait = "GFX_relic_gleucksspieltoken"
+	portrait = "GFX_relic_zakuya"
 	sound = "relic_activation_the_surveyor"
 
 	triggered_country_modifier = {
@@ -60,13 +66,15 @@ r_gleucksspieltoken = {
 		}
 		trade_value_mult = 0.05
 	}
-
+	possible = {always = no}
+	resources = {category = relics	}
+	active_effect = {}
 	score = 1000
 }
 
-r_memedatenbank = {
+r_omnicprime = {
 	activation_duration = @triumph_duration
-	portrait = "GFX_relic_memedatenbank"
+	portrait = "GFX_relic_omnicprime"
 	sound = "relic_activation_the_surveyor"
 
 	triggered_country_modifier = {
@@ -75,7 +83,178 @@ r_memedatenbank = {
 		}
 		first_contact_speed_mult = 0.1
 	}
-
+	possible = {always = no}
+	resources = {category = relics	}
+	active_effect = {}
 	score = 1000
 }
 
+r_noravu = {
+	activation_duration = @triumph_duration
+	portrait = "GFX_relic_noravu"
+	sound = "relic_activation_the_surveyor"
+
+	triggered_country_modifier = {
+		potential = {
+			always = yes
+		}
+		general_skill_levels = 1
+	}
+	possible = {always = no}
+	resources = {category = relics	}
+	active_effect = {}
+	score = 1000
+}
+
+r_famarian = {
+	activation_duration = @triumph_duration
+	portrait = "GFX_relic_famarian"
+	sound = "relic_activation_the_surveyor"
+
+	triggered_country_modifier = {
+		potential = {
+			always = yes
+		}
+		country_resource_max_add = 2000
+	}
+	possible = {always = no}
+	resources = {category = relics	}
+	active_effect = {}
+	score = 1000
+}
+
+r_fareen = {
+	activation_duration = @triumph_duration
+	portrait = "GFX_relic_fareen"
+	sound = "relic_activation_the_surveyor"
+
+	triggered_country_modifier = {
+		potential = {
+			always = yes
+		}
+		edicts_cost_mult = -0.05
+	}
+	possible = {always = no}
+	resources = {category = relics	}
+	active_effect = {}
+	score = 1000
+}
+
+r_evoli = {
+	activation_duration = @triumph_duration
+	portrait = "GFX_relic_evoli"
+	sound = "relic_activation_the_surveyor"
+
+	triggered_country_modifier = {
+		potential = {
+			always = yes
+		}
+		planet_crime_mult = -0.03
+	}
+	possible = {always = no}
+	resources = {category = relics	}
+	active_effect = {}
+	score = 1000
+}
+
+r_pathfinder = {
+	activation_duration = @triumph_duration
+	portrait = "GFX_relic_pathfinder"
+	sound = "relic_activation_the_surveyor"
+
+	triggered_country_modifier = {
+		potential = {
+			always = yes
+		}
+		planet_pops_energy_upkeep_mult = -0.05
+	}
+	possible = {always = no}
+	resources = {category = relics	}
+	active_effect = {}
+	score = 1000
+}
+
+r_flores = {
+	activation_duration = @triumph_duration
+	portrait = "GFX_relic_flores"
+	sound = "relic_activation_the_surveyor"
+
+	triggered_country_modifier = {
+		potential = {
+			always = yes
+		}
+		diplo_weight_mult = 0.05
+	}
+	possible = {always = no}
+	resources = {category = relics	}
+	active_effect = {}
+	score = 1000
+}
+
+r_isoptera = {
+	activation_duration = @triumph_duration
+	portrait = "GFX_relic_isoptera"
+	sound = "relic_activation_the_surveyor"
+
+	triggered_country_modifier = {
+		potential = {
+			always = yes
+		}
+		pop_growth_speed = 0.05
+	}
+	possible = {always = no}
+	resources = {category = relics	}
+	active_effect = {}
+	score = 1000
+}
+
+r_karanen = {
+	activation_duration = @triumph_duration
+	portrait = "GFX_relic_karanen"
+	sound = "relic_activation_the_surveyor"
+
+	triggered_country_modifier = {
+		potential = {
+			always = yes
+		}
+		envoys_add = 1
+	}
+	possible = {always = no}
+	resources = {category = relics	}
+	active_effect = {}
+	score = 1000
+}
+
+r_kooperative = {
+	activation_duration = @triumph_duration
+	portrait = "GFX_relic_kooperative"
+	sound = "relic_activation_the_surveyor"
+
+	triggered_country_modifier = {
+		potential = {
+			always = yes
+		}
+		planet_resettlement_unemployed_mult = 0.50
+	}
+	possible = {always = no}
+	resources = {category = relics	}
+	active_effect = {}
+	score = 1000
+}
+
+r_aracea = {
+	activation_duration = @triumph_duration
+	portrait = "GFX_relic_aracea"
+	sound = "relic_activation_the_surveyor"
+
+	triggered_country_modifier = {
+		potential = {
+			always = yes
+		}
+		biological_pop_happiness = 0.05
+	}
+	possible = {always = no}
+	resources = {category = relics	}
+	active_effect = {}
+	score = 1000
+}

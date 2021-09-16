@@ -1,23 +1,59 @@
 spriteTypes = {
 
 	spriteType = {
-		name = "GFX_relic_potato"
-		texturefile = "gfx/interface/icons/potato.dds"
-	}
-	spriteType = {
-		name = "GFX_relic_zondragenes"
+		name = "GFX_relic_zondra"
 		texturefile = "gfx/interface/icons/zondra.dds"
 	}
 	spriteType = {
-		name = "GFX_relic_kontaktsonde"
+		name = "GFX_relic_eskethia"
 		texturefile = "gfx/interface/icons/eskethia.dds"
 	}
 	spriteType = {
-		name = "GFX_relic_gleucksspieltoken"
-		texturefile = "gfx/interface/icons/sakuya.dds"
+		name = "GFX_relic_zakuya"
+		texturefile = "gfx/interface/icons/zakuya.dds"
 	}
 	spriteType = {
-		name = "GFX_relic_memedatenbank"
+		name = "GFX_relic_omnicprime"
 		texturefile = "gfx/interface/icons/omnicprime.dds"
+	}
+	spriteType = {
+		name = "GFX_relic_noravu"
+		texturefile = "gfx/interface/icons/noravu.dds"
+	}
+	spriteType = {
+		name = "GFX_relic_famarian"
+		texturefile = "gfx/interface/icons/famarian.dds"
+	}
+	spriteType = {
+		name = "GFX_relic_fareen"
+		texturefile = "gfx/interface/icons/fareen.dds"
+	}
+	spriteType = {
+		name = "GFX_relic_evoli"
+		texturefile = "gfx/interface/icons/evoli.dds"
+	}
+	spriteType = {
+		name = "GFX_relic_pathfinder"
+		texturefile = "gfx/interface/icons/pathfinder.dds"
+	}
+	spriteType = {
+		name = "GFX_relic_flores"
+		texturefile = "gfx/interface/icons/flores.dds"
+	}
+	spriteType = {
+		name = "GFX_relic_isoptera"
+		texturefile = "gfx/interface/icons/isoptera.dds"
+	}
+	spriteType = {
+		name = "GFX_relic_karanen"
+		texturefile = "gfx/interface/icons/karanen.dds"
+	}
+	spriteType = {
+		name = "GFX_relic_kooperative"
+		texturefile = "gfx/interface/icons/kooperative.dds"
+	}
+	spriteType = {
+		name = "GFX_relic_aracea"
+		texturefile = "gfx/interface/icons/aracea.dds"
 	}
 }
