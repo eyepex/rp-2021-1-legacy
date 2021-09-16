@@ -166,7 +166,7 @@ r_pathfinder = {
 		potential = {
 			always = yes
 		}
-		planet_pops_energy_upkeep_mult = -0.05
+		planet_pops_upkeep_mult = -0.05
 	}
 	possible = {always = no}
 	resources = {category = relics	}
